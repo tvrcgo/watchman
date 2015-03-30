@@ -1,0 +1,27 @@
+{
+  "name": "watchman",
+  "version": "0.1.0",
+  "description": "network service monitor",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^1.3.2",
+    "eventproxy": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tvrcgo/watchman.git"
+  },
+  "keywords": [
+    "monitor"
+  ],
+  "author": "tvrcgo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tvrcgo/watchman/issues"
+  },
+  "homepage": "https://github.com/tvrcgo/watchman"
+}
