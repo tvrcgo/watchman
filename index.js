@@ -1,6 +1,6 @@
 
 var net = require('net');
-var EventProxy = require('eventproxy');
+var EventEmitter = require('events').EventEmitter;
 
 module.exports = Watchman;
 
@@ -10,7 +10,7 @@ function Watchman(){
 		return new Watchman();
 	}
 
-	this._man = new EventProxy();
+	this._man = new EventEmitter();
 	this._task = {}, this._timer;
 	var pointStatus = {}, _this = this;
 
