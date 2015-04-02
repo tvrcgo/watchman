@@ -1,6 +1,8 @@
 # watchman
 监视服务器运行情况
 
+[![npm version](https://badge.fury.io/js/node-watchman.svg)](http://badge.fury.io/js/node-watchman)
+
 ## Installation
 ```
 npm install node-watchman
