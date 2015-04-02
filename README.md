@@ -1,6 +1,11 @@
 # watchman
 监视服务器运行情况
 
+## Installation
+```
+npm install node-watchman
+```
+
 ## Usage
 监视指定的主机端口，状态发生变化时触发回调，不指定主机时监听本机端口。
 

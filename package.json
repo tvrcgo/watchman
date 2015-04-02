@@ -1,5 +1,5 @@
 {
-  "name": "watchman",
+  "name": "node-watchman",
   "version": "0.1.0",
   "description": "network service monitor",
   "main": "index.js",
