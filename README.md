@@ -1,17 +1,22 @@
 # watchman
+
 监视服务器运行情况
 
 [![npm version](https://badge.fury.io/js/node-watchman.svg)](http://badge.fury.io/js/node-watchman)
 
 ## Installation
+
 ```
 npm install node-watchman
 ```
 
 ## Usage
+
 监视指定的主机端口，状态发生变化时触发回调，不指定主机时监听本机端口。
 
 ```js
+var Watchman = require('node-watchman');
+
 var man = Watchman();
 man.watch(80, function(point){
 	// localhost:80 state change
@@ -36,4 +41,5 @@ man.start(3000);
 ```
 
 ## License
+
 MIT
